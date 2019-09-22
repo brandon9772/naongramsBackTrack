@@ -123,6 +123,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Nanograms.cpp" />
+    <ClCompile Include="Solver.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Nanograms.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Solver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="question1_10x10.txt" />
+    <Text Include="question1_15x15.txt" />
+    <Text Include="question1_5x5.txt" />
+    <Text Include="question2_10x10.txt" />
+    <Text Include="question3_10x10.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="naongramsBackTrack.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
